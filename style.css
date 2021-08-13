@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://images.wallpaperscraft.com/image/deer_art_vector_134088_1280x720.jpg);
+}
+
+/* --------- navbar styling ----------*/
+
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 2.5px 0px;
+    background-color: #03071e;
+    color: white;
+    opacity: 0.8;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav h3{
+    margin-bottom: 5px;
+    display: inline-block;
+    padding: 2px 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 8px;
+    
+}
+
+nav a{
+    font-family:sans-serif;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: white;
+    margin-right:  27px;
+  
+}
+nav i{
+    color: rgba(144, 226, 123, 0.993);
+    padding: 0px 3px;
+}
+
+/* --------------------------------------- */
+
+/* -------------container styling--------- */
+
+#container{
+    width: 70%;
+    margin: 3rem auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container h1{
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    font-style: italic;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(193, 221, 207, 0.774);
+    text-shadow: 5px 4px 4px rgb(70, 65, 65);
+}
+
+#search{
+    
+    width: 60%;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: none;
+    color: blanchedalmond;
+    text-align: center;
+    background-color: black;
+    opacity: 0.6;
+    font-style: italic;
+   
+}
+
+
+
+#search:focus{
+    outline: none;
+}
+
+#list{
+    width: 80%;
+    list-style: none;
+    text-align: center;
+    margin: 1.5rem 0px;
+    background-color: rgba(27, 25, 25, 0.555);
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+
+.one{
+    font-size: 1.3rem;
+    font-family:  cursive;
+    font-style: italic;
+    color: rgb(245, 226, 226);
+    margin-bottom: 3px;
+
+}
+
+.zero{
+    width: 40%;
+    margin: auto;
+    font-size: 0.7rem;
+    font-family: cursive;
+    /* font-style: italic; */
+    color: rgba(245, 199, 139, 0.719);
+    margin-bottom: 15px;
+    padding: 1px 0px;
+    border-radius: 2px;
+    background-color: rgba(214, 91, 91, 0.247);
+}
+
+.two{
+    font-size: 1.6rem;
+    font-family:  cursive;
+    font-style: italic;
+    color: rgba(162, 240, 229, 0.966);
+    margin-bottom: 12px;
+}
+
+.three{
+
+    font-size: 0.7rem;
+    font-family:  cursive;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: rgba(172, 235, 175, 0.925);
+    background-color: rgba(29, 26, 26, 0.699);
+    padding: 8px 0px;
+
+}
+
+.four{
+    
+    margin: auto;
+    font-size: 4rem;
+    font-family:  cursive;
+    font-style: italic;
+    color: rgba(226, 214, 236, 0.89);
+    text-shadow: 5px 4px 4px rgba(150, 150, 150, 1);
+    margin-bottom: 1rem;
+    
+}
+
+.five{
+    font-size: 0.8rem;
+    font-family:  cursive;
+    font-style: italic;
+    color: rgb(119, 186, 231);
+    margin-bottom: 1rem;
+
+}
